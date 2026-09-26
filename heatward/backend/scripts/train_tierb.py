@@ -1,6 +1,0 @@
-"""Convenience wrapper:  python scripts/train_tierb.py [--source demo] [--wards pilot]"""
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from app.train import main
-main()
